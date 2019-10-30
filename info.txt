@@ -1,8 +1,10 @@
-☐☐☐☐☐
-☐☐☐☐☐
-☐☐☐☐☐
-☐☐☐☐☐
-☐☐☐☐☐
+grid:
+ 1|2|3|4|5
+1 ☐☐☐☐☐
+2 ☐☐☐☐☐
+3 ☐☐☐☐☐
+4 ☐☐☐☐☐
+5 ☐☐☐☐☐
 
 1:
 ☒☒☐
@@ -73,3 +75,21 @@
 ☒☐☒
 ☒☐☒
 ☒☒☒
+
+OOG:
+public class oogCel {
+  private int x,y;
+  private boolean on;
+  
+  public Integer getX() {
+    return this.x;
+  }
+  
+  public Integer getY() {
+    return this.y;
+  }
+  
+  public Boolean isOn() {
+    return this.on;
+  }
+}
